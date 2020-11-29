@@ -1,0 +1,23 @@
+{
+    "name": "nhg/lookup-tables",
+    "description": "NHG Lookup Tables",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shakeeb Ahmed",
+            "email": "me@shakeebahmed.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.6"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload" : {
+		"classmap" : [ "includes/" ]
+	},
+	"config": {
+		"optimize-autoloader": true
+	}
+}
